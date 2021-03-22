@@ -6,7 +6,7 @@ pipeline {
 
     stage('Cloning Git') {
 
-      steps{name
+      steps{
 
         git([url: 'https://github.com/chrisneal11/simple-java-maven-app', branch: 'master', credentialsId: 'chrisneal11'])
 
